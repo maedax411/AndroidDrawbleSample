@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#73BAAA"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="aaa.firstapp.MainActivity">
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button"
+        android:text="ボタン"
+        android:textColor="#333"
+        android:textSize="15sp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/press_button"
+        android:text="ボタン"
+        android:textColor="#64d7d6"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/image_radius"
+        android:padding="15dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icon_127800_256" />
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/shadow_button"
+        android:text="影つきボタン"
+        android:textColor="#333"
+        android:textSize="15sp" />
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/flat_button"
+        android:foreground="?@android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="リップル"
+        android:textColor="#1D1D1D"
+        android:textSize="15sp" />
+
+
+</LinearLayout>

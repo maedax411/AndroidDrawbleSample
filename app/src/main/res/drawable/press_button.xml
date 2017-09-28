@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">>
+
+    <!-- 押下時の装飾 -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#c4aff0" />
+            <corners android:radius="5dp" />
+            <stroke android:width="3dp" android:color="#5782bb" />
+        </shape>
+    </item>
+
+    <!-- フォーカス時の装飾 -->
+    <item android:state_focused="true">
+        <shape>
+            <solid android:color="#333" />
+            <corners android:radius="5dp" />
+            <stroke android:width="3dp" android:color="#5782bb" />
+        </shape>
+    </item>
+
+    <!-- 通常時の装飾(これを最後に書く) -->
+    <item>
+        <shape>
+            <solid android:color="#fffeec" />
+            <corners android:radius="5dp" />
+            <stroke android:width="3dp" android:color="#5782bb" />
+        </shape>
+    </item>
+
+
+</selector>
